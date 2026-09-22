@@ -1,0 +1,15 @@
+# GitDorker canary sample
+#
+# 这个文件里的"密钥"是故意编造的假值，唯一用途是给 GitDorker
+# 提供一个可被 code search 命中的确定性字符串，用来验证工具链路。
+# 它不是任何真实服务的凭据，公开也是安全的。
+
+[aws]
+aws_access_key_id = "gitdorker_canary_7f4c1a9e"
+aws_secret_access_key = "gitdorker_canary_no_real_secret_2b8d5e30"
+
+[database]
+db_password = "gitdorker_canary_db_9a1f6c42"
+
+[api]
+api_token = "gitdorker_canary_api_5e7b0d18"
